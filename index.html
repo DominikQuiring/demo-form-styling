@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form Layout E01</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section>
+        <h2>Log In</h2>
+        <form action="#" method="POST">
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" required placeholder="Email Required">
+            </div>
+            <div>
+                <label for="pass">Password</label>
+                <p>Password must contain a uppercase letter, a lowercase letter, a number, a special character and be at least 8 characters in length.</p>
+                <input type="password" id="password" required autocomplete="off" minlength="8">
+            </div>
+            <div>
+                <input type="submit" value="sign-in">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
